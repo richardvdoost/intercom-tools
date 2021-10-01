@@ -76,7 +76,7 @@ def get_author(part):
 
 
 def html_to_text(html):
-    return BeautifulSoup(html, "html.parser").get_text()
+    return BeautifulSoup(html, features="html.parser").get_text()
 
 
 if __name__ == "__main__":
